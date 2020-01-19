@@ -12,8 +12,9 @@
 
 }
 .head-box {
-  background-color: blue;
+  background-color:steelblue;
   color: white;
+  text-decoration: white;
 
 
 }
@@ -27,7 +28,7 @@ a {
 
 .blog-container {
   text-align: center;
-  border: 6px  solid black;
+  border: 1px  solid black;
   color: black;
   background-color: white;
   margin: auto;
@@ -40,27 +41,22 @@ a {
     background-color: lightgrey;
     text-align: right;
     color: grey;
-    text-decoration: underline 3px;
     
-
-    
-
-
-
-
 
   }
-  .container-2 {
-    text-align: center;
-    text-decoration: underline;
-    border: solid 2px red;
+  section {
+    border-bottom: 1px solid black;
+
 
   }
 
 
+  
 
 
 
 
-}
+
+
+
 
