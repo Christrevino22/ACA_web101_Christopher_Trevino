@@ -1,8 +1,29 @@
 .main-container {
   border: 1px solid red;
-  height: 1000px;
-  width: 500px;
-  text-align: center;
-  margin: auto;
+  padding-top: 0px;                                                                                                             
+}
+header {
+  text-decoration-color: white;
+  border: 1px solid blue;
+  background-color: blue;
+  width: auto;
+  height: 15px;
+  text-align: right;
+  padding-right: 200px;
+  padding-top: none;
+  
+
+}
+nav {
+  border: 1px solid green;
+  background-color: crimson;
+
 } 
-.nav{} 
+a {
+  list-style-type: none;
+  color: white;
+
+}
+.blog-container {
+  text-align: center;
+}
