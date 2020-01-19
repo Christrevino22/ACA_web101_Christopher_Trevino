@@ -1,5 +1,5 @@
 .main-container {
-  border: 6px solid black;
+  border: 1px solid black;
   height:  3100px;
   width: 1500px;
   text-align: right;
@@ -37,10 +37,10 @@ a {
 
 }
   .nav-bar {
-    border: 6px solid black;
+    border: 1px solid black;
     background-color: lightgrey;
     text-align: right;
-    color: grey;
+    
     
 
   }
@@ -50,6 +50,13 @@ a {
 
   }
 
+  nav {
+    color: white;
+    text-decoration: none;
+    
+
+  }
+  
 
   
 
