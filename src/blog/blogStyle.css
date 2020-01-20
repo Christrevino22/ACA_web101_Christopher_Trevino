@@ -7,12 +7,11 @@
   color: grey;
   text-decoration: none;
 
-
+}
+.main-container:hover {
+  color: black;
+  background-color: yellow;
   
-
-
-  
-
 }
 .head-box {
   background-color:steelblue;
