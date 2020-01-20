@@ -11,18 +11,20 @@
 .main-container:hover {
   color: black;
   background-color: yellow;
-  
+
 }
 .head-box {
   background-color:steelblue;
   color: white;
-  text-decoration: white;
+
 
 
 }
 
-a {
+a .head-box {
   text-decoration: none;
+  color: white;
+  
 
 }
   
