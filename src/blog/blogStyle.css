@@ -5,17 +5,17 @@
   text-align: right;
   background-color: lightgrey;
   color: grey;
-  text-decoration: none;
+  
 
 }
-.main-container:hover {
-  color: black;
-  background-color: yellow;
 
-}
 .head-box {
   background-color:steelblue;
   color: white;
+  border: 3px solid black;
+  
+
+
 
 
 
@@ -40,7 +40,7 @@ a .head-box {
   height: 3000px;
 
 }
-  .nav-bar {
+  .nav-bar-link {
     border: 1px solid black;
     background-color: lightgrey;
     text-align: right;
