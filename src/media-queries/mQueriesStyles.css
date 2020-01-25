@@ -20,10 +20,31 @@ main p{
   
 }
 
-.container {
-  text-decoration: none;
+.container1 {
   text-align: left;
-  background-color: chocolate;
-  width: ;
+  width: 45%;
+  background-color: dimgrey;
+  margin: 0%;
+  font-size: 20px;
+  
+  
 
 }
+ul {
+  padding: 0%;
+  margin: 0%;
+  display: inline-flex;
+  list-style: none;
+}
+footer h3 {
+  color: white;
+
+}
+a {
+  color:white;
+}
+footer {
+  background-color: dimgrey;
+}
+
+
