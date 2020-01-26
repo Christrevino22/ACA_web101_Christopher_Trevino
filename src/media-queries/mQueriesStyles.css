@@ -4,8 +4,11 @@ img {
   
 
 }
+h1{
+  text-align: left;
+}
 body {
-  text-align: center;
+  text-align:center;
 }
 main {
   padding: 40px;
@@ -17,6 +20,7 @@ main p{
 }
 .main-text {
   font-size:25px;
+  text-align: left;
   
 }
 
@@ -45,6 +49,16 @@ a {
 }
 footer {
   background-color: dimgrey;
+}
+button {
+  color: white;
+  background-color: dimgrey;
+  width: 150px;
+  font-size: 25px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+  
 }
 
 
