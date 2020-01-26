@@ -23,16 +23,12 @@ main p{
   text-align: left;
   
 }
-
 .container1 {
   text-align: left;
   width: 45%;
   background-color: dimgrey;
   margin: 0%;
   font-size: 20px;
-  
-  
-
 }
 ul {
   padding: 0%;
@@ -42,7 +38,6 @@ ul {
 }
 footer h3 {
   color: white;
-
 }
 a {
   color:white;
@@ -56,9 +51,5 @@ button {
   width: 150px;
   font-size: 25px; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
-  
 }
-
 
