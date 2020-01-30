@@ -1,12 +1,16 @@
 main.main-container{
-  background-color: pink;
+  background-color: blue;
   border: black;
-  height: %;
   width: 100%;
   display: grid;
-  grid-template-columns: 10% repeat(0, 1fr) 10%;
-  grid-template-rows: 80px 1fr 150px 50px 120px;
-}
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows:  50px 50px 50px 50px;
 
+}
+.todolist {
+  display: grid;
+  ;
+
+}
 
 
