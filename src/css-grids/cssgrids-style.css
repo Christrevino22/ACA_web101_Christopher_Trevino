@@ -1,15 +1,22 @@
 main.main-container{
-  background-color: blue;
-  border: black;
-  width: 100%;
+  border: 1px solid black;
+  height: fit-content;
+  width: fit-content;
   display: grid;
-  grid-template-columns: 80px 80px 80px 80px;
-  grid-template-rows: 80px 80px 80px 80px;
-
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:  repeat(3, 1fr);
+ 
 }
 .todolist {
   display: grid;
-  ;
+  grid-area: 1/2/4/1;
+  
+
+
+
+
+}
+.greeting{
 
 }
 
