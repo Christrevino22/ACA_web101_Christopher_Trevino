@@ -1,7 +1,7 @@
 main.main-container{
   border: 1px solid black;
   height: 800px;
-  width: 1200px;
+  width: 1500px;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
@@ -15,7 +15,7 @@ main.main-container{
   padding: 0%;
   list-style-type: none;
   background-color: blue;
-
+font-size: 30px;
 }
 .greeting{
   display: grid;
@@ -33,11 +33,15 @@ main.main-container{
   display: grid;
   grid-area: 3/3;
 background-color: darkorchid;
+text-align: center;
 }
 .clock{
   display: grid;
   grid-area: 3/4;
   background-color: deeppink;
+  text-align: center;
+  font-size: 45px;
+
 
 
 }
