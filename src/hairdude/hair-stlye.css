@@ -5,6 +5,12 @@
 
 
 }
-body{
-  
+img{
+  margin: 0 auto;
+  grid-area: 1/1/3;
+
+}
+
+nav{
+  grid-area: 1/2/2;
 }
