@@ -1,0 +1,60 @@
+.main-container{
+  background-color: #4682b4;
+  height: fit-content;
+  margin:
+
+
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+  background-color: salmon;
+  list-style-type: none;
+
+}
+
+.home{
+  border: 2px solid red;
+  background-color: seagreen;
+  color:blue;
+
+
+}
+.about{
+  border: 2px solid yellow;
+}
+.contact-me{
+  border: 2px solid blue;
+}
+.box-1{
+  border: 2px solid purple;
+  margin-top: 80px;
+  background-color: chocolate;
+  text-align: center;
+
+
+
+}
+.box-1 h1{
+
+
+}
+.box-2{
+  border: 2px solid purple;
+  margin-top: 90px;
+  background-color: chartreuse;
+  text-align: center;
+  margin-bottom: 50px;
+
+
+
+
+}
+.box-3{
+  border: 2px solid;
+  background-color: violet;
+  text-align: center;
+
+}
+
