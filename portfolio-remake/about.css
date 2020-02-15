@@ -1,49 +1,46 @@
-body{
-  margin:0;
-  padding:0;
-
-}
 .main-container{
   background-color: white;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 
 
 }
-.nav-bar{
+.nav-bar ul{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: black;
   list-style-type: none;
+  margin: 0;
+  padding:0 ;
 
 }
+
 
 .home{
   color:white;
+  list-style-type: none;
 
 
 }
 .about{
+  display: flex;
 color: white;
+list-style-type: none;
+
 }
 .contact-me{
   color: white;
+  list-style-type: none;
 }
 .box-1{
-  border: 2px solid purple;
-  margin-top: 80px;
   background-color: chocolate;
   text-align: center;
 
 
 
 }
-.box-1 h1{
-  
-
-
-}
 .box-2{
-  border: 2px solid purple;
   margin-top: 90px;
   background-color: chartreuse;
   
