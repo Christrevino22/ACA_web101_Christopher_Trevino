@@ -1,31 +1,32 @@
+body{
+  margin:0;
+  padding:0;
+
+}
 .main-container{
-  background-color: #4682b4;
-  height: fit-content;
-  margin:
+  background-color: white;
+  width: 100%;
 
 
 }
 .nav-bar{
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
-  background-color: salmon;
+  background-color: black;
   list-style-type: none;
 
 }
 
 .home{
-  border: 2px solid red;
-  background-color: seagreen;
-  color:blue;
+  color:white;
 
 
 }
 .about{
-  border: 2px solid yellow;
+color: white;
 }
 .contact-me{
-  border: 2px solid blue;
+  color: white;
 }
 .box-1{
   border: 2px solid purple;
@@ -37,6 +38,7 @@
 
 }
 .box-1 h1{
+  
 
 
 }
@@ -44,17 +46,18 @@
   border: 2px solid purple;
   margin-top: 90px;
   background-color: chartreuse;
-  text-align: center;
-  margin-bottom: 50px;
+  
 
 
 
 
 }
 .box-3{
-  border: 2px solid;
   background-color: violet;
   text-align: center;
+  margin: 0%;
+  padding: 0%;
+
 
 }
 
