@@ -13,6 +13,14 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: slateblue;
   color: red;
+  animation-name: main-animation;
+  animation-duration: 4s;
+
+
+}
+@keyframes main-animation{
+from{background-color: slateblue;}
+to{background-color: tomato;}
 }
 nav{
   height: 80px;
@@ -50,6 +58,12 @@ main .portfolio {
 }
 main .portfolio-img img {
   height: 100%;
+  animation-name: pic;
+  animation: ease-in-out;
+
+}
+@keyframes pic{
+  
 }
 main .portfolio-content {
   flex-direction: column;
