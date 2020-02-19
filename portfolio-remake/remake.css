@@ -59,10 +59,22 @@ main .portfolio {
 main .portfolio-img img {
   height: 100%;
   animation-name: pic;
-  animation: ease-in-out;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
 
 }
 @keyframes pic{
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
   
 }
 main .portfolio-content {
