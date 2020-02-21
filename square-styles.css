@@ -9,7 +9,7 @@
   border: 2px solid black;
   width: 50px;
   height: 50px;
-  transition: b;
+  transition: ;
 }
 .main-container:hover .box:nth-child(odd) {
   background: red;
