@@ -34,7 +34,7 @@ ul {
   padding: 0%;
   margin: 0%;
   display: inline-flex;
-  list-style: none;
+  list-style-type: none;
 }
 footer h3 {
   color: white;
