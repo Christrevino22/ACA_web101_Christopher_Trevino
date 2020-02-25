@@ -1,14 +1,29 @@
-.nav-bar ul{
+.nav-bar ul {
   border: 2px solid black;
   display: flex;
+  flex-direction: row;
+  flex: 1;
   justify-content: center;
   list-style-type: none;
+  justify-content: space-evenly;
+  padding-top: 50px;
+
 
 
 }
+.nav-bar a{
+  color: darkgoldenrod;
+  text-decoration: none;
+  
+
+}
+.nav-bar img{
+  padding-bottom: 20px;
+}
 .catalog{
   border: 2px solid black;
- margin-right: 20px;
+  margin-right: 20px;
+
 }
 
 
