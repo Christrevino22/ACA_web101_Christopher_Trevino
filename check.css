@@ -1,5 +1,8 @@
+html{
+  background-color: purple;
+
+}
 .nav-bar ul {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -25,7 +28,28 @@
 
 
 
-.main-container{
+.wrap{
+
+
+
+}
+
+.left-box{
+  background-color: white;
+
+}
+.right-box img{
+  position: absolute;
+}
+.mid-box{
   border: 2px solid black;
+  background-color: white;
+  display: flex;
+
+
+
+
+}
+#lname{
 
 }
