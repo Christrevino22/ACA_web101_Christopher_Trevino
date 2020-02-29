@@ -42,14 +42,26 @@ html{
   position: absolute;
 }
 .mid-box{
-  border: 2px solid black;
   background-color: white;
   display: flex;
+  flex-direction: flex;
+  justify-content: space-evenly;
+  text-align: left;
+
+
+
 
 
 
 
 }
-#lname{
 
+#search{
+  background-color: yellow;
+  font-size: 18px;
+
+}
+#rates{
+  background-color: yellow;
+  font-size: 18px;
 }
