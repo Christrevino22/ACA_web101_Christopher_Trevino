@@ -116,7 +116,10 @@ body{
   font-size: 20px;
 
 }
-#main-box{
+#main-box .lSide .rSide{
+  display: flex;
+  
+  justify-content: space-evenly;
 
 }
 .lSide{
@@ -130,5 +133,17 @@ body{
   color: goldenrod;
   text-decoration: none;
 
+
+}
+.rSide{
+  border: 2px black ;
+  color: white;
+
+
+
+}
+#footer{
+  font-size: 12px;
+  color: white;
 
 }
