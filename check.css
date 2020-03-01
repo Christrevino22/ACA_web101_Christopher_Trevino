@@ -2,6 +2,10 @@ html{
   background-color: purple;
 
 }
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+}
 .nav-bar ul {
   display: flex;
   flex-direction: row;
@@ -36,6 +40,17 @@ html{
 
 .left-box{
   background-color: white;
+  display: flex;
+  border-bottom: thin black;
+
+
+}
+.pic-stuff{
+
+  width: 400px;
+  height: 400px;
+
+  
 
 }
 .right-box img{
@@ -99,5 +114,21 @@ html{
 #news{
   background-color: yellow;
   font-size: 20px;
+
+}
+#main-box{
+
+}
+.lSide{
+  color: white;
+
+
+
+}
+.lSide a {
+  list-style-type: none;
+  color: goldenrod;
+  text-decoration: none;
+
 
 }
