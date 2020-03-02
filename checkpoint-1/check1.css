@@ -1,7 +1,8 @@
 main.main-container{
   border: 1px solid black;
   height: 800px;
-  width: 1500px;
+  width: 100%;
+
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
@@ -63,6 +64,18 @@ text-align: center;
   background-color: orangered;
   text-align: ;
 
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+  main {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+
+  }
 }
 
 
