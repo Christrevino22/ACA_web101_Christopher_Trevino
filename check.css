@@ -1,0 +1,149 @@
+html{
+  background-color: purple;
+
+}
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.nav-bar a{
+  color: darkgoldenrod;
+  text-decoration: none;
+
+}
+.nav-bar img{
+  padding-bottom: 20px;
+}
+.catalog{
+  border: 2px solid black;
+  margin-right: 20px;
+
+}
+
+
+
+
+.wrap{
+  padding-bottom:
+
+
+}
+
+.left-box{
+  background-color: white;
+  display: flex;
+  border-bottom: thin black;
+
+
+}
+.pic-stuff{
+
+  width: 400px;
+  height: 400px;
+
+  
+
+}
+.right-box img{
+  position: absolute;
+}
+.mid-box{
+  background-color: white;
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 18px;
+
+
+
+
+
+
+
+
+}
+
+#search{
+  background-color: yellow;
+  font-size: 20px;
+
+}
+#rates{
+  background-color: yellow;
+  font-size: 20px;
+}
+.bottom-box{
+  background-color: white;
+  font-size: 18px;
+  display: flex;
+
+
+
+
+}
+.bottom-box h1{
+  margin-top: 0px;
+ 
+}
+#more{
+  background-color: yellow;
+  font-size: 20px;
+}
+.img-side{
+
+}
+.img-side h4 {
+  color: goldenrod;
+  display: flex;
+
+
+
+
+}
+#news{
+  background-color: yellow;
+  font-size: 20px;
+
+}
+#main-box .lSide .rSide{
+  display: flex;
+  
+  justify-content: space-evenly;
+
+}
+.lSide{
+  color: white;
+
+
+
+}
+.lSide a {
+  list-style-type: none;
+  color: goldenrod;
+  text-decoration: none;
+
+
+}
+.rSide{
+  border: 2px black ;
+  color: white;
+
+
+
+}
+#footer{
+  font-size: 12px;
+  color: white;
+
+}
