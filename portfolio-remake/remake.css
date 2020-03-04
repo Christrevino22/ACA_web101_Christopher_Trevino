@@ -6,39 +6,51 @@
   background: none;
 }
 .main-container {
-  /* border: 2px solid red; */
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: #000740;
-  color: ghostwhite;
+  background: slateblue;
+  color: red;
+  animation-name: main-animation;
+  animation-duration: 3s;
+
+
 }
-/* ~~~ NAV ~~~*/
+@keyframes main-animation{
+from{background-color: slateblue;}
+to{background-color: tomato;}
+}
+
+
+
+
+
 nav{
-  /* border:1px solid green; */
   height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  list-style-type: none;
 }
 nav div.logo {
-  /* border:1px solid red; */
   flex: 1;
 }
 nav ul {
-  /* border:1px solid red; */
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex: 2;
   justify-content: space-between;
+  color: black;
+  
+
 }
+
 main{
-  /* border:1px solid pink; */
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -48,7 +60,6 @@ main{
 }
 main .portfolio {
   height: 300px;
-  /* border: 2px solid palevioletred; */
   flex: 1;
   display: flex;
   justify-content: center;
@@ -56,9 +67,38 @@ main .portfolio {
 }
 main .portfolio-img img {
   height: 100%;
+  animation-name: pic;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+
+}
+@keyframes pic{
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
 }
 main .portfolio-content {
   flex-direction: column;
+  background-color: black;
+  animation-name: dude;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+
+
+}
+
+@keyframes dude{
+  from{background-color: black;}
+to{background-color: slateblue;}
 }
 main .portfolio-content p:nth-of-type(1) {
   font-size: 34px;
@@ -73,7 +113,8 @@ main .portfolio-content button {
   border: 2px solid rgba(39, 36, 36, 0.729);
   padding: 10px 20px;
   border-radius: 20px;
-  background: ghostwhite;
+  background: black;
+  color: red;
 }
 main .portfolio-content button:hover {
   box-shadow: 7px 9px 9px 0px rgb(68, 67, 67);
@@ -81,7 +122,6 @@ main .portfolio-content button:hover {
   cursor: pointer;
 }
 footer{
-  /* border:1px solid blue; */
   height: 50px;
   display: flex;
   justify-content: center;
